@@ -151,4 +151,4 @@ function printQuote() {
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
-window.setInterval(printQuote, 1000 * 20); // will run printQuote() every 10 sec
+window.setInterval(printQuote, 1000 * 20); // will run printQuote() every 20 sec
